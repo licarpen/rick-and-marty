@@ -9,6 +9,7 @@ const chance = new Chance();
 import styles from './Character.css';
 
 const characters = [...Array(8)]
+  // eslint-disable-next-line no-unused-vars
   .map(i => ({ name: chance.name(), image: 'http://placegoat.com/300/300', status: chance.pickone(['alive', 'dead', 'unknown']), species: chance.animal(), gender: chance.pickone(['male', 'female', 'nonbinary']), origin: chance.city(), lastLocation: chance.city() }));
 
 const App = () => (
