@@ -3,6 +3,85 @@
 exports[`App component renders App 1`] = `
 <Fragment>
   <Header />
+  // eslint-disable-next-line react/jsx-no-comment-textnodes
+  <div
+    className="container"
+  >
+    // eslint-disable-next-line react/jsx-key
+    <Character
+      gender="male"
+      image="http://placegoat.com/300/300"
+      lastLocation="Iwakascaj"
+      name="Katie Young"
+      origin="Vaurawuc"
+      species="Crane Fly"
+      status="dead"
+    />
+    <Character
+      gender="female"
+      image="http://placegoat.com/300/300"
+      lastLocation="Vuvvudu"
+      name="Frances Mann"
+      origin="Gulpoha"
+      species="Cows"
+      status="alive"
+    />
+    <Character
+      gender="female"
+      image="http://placegoat.com/300/300"
+      lastLocation="Acmekwog"
+      name="Kenneth Myers"
+      origin="Jopunoro"
+      species="Aldabra Tortoise"
+      status="unknown"
+    />
+    <Character
+      gender="female"
+      image="http://placegoat.com/300/300"
+      lastLocation="Nadpaepi"
+      name="Albert Little"
+      origin="Rukemi"
+      species="Yelloweye Rockfish"
+      status="alive"
+    />
+    <Character
+      gender="male"
+      image="http://placegoat.com/300/300"
+      lastLocation="Ejegear"
+      name="Joseph Long"
+      origin="Regubaon"
+      species="Ant"
+      status="alive"
+    />
+    <Character
+      gender="female"
+      image="http://placegoat.com/300/300"
+      lastLocation="Ivarapu"
+      name="Larry Marsh"
+      origin="Lajasu"
+      species="Red Panda"
+      status="unknown"
+    />
+    <Character
+      gender="nonbinary"
+      image="http://placegoat.com/300/300"
+      lastLocation="Fecilpa"
+      name="Minnie McLaughlin"
+      origin="Nimiczaw"
+      species="Bustard"
+      status="alive"
+    />
+    <Character
+      gender="female"
+      image="http://placegoat.com/300/300"
+      lastLocation="Evehiku"
+      name="Bill Morrison"
+      origin="Fakcagu"
+      species="Toad"
+      status="unknown"
+    />
+    ;
+  </div>
   <Footer />
 </Fragment>
 `;
