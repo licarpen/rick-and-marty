@@ -15,7 +15,7 @@ export default class Character extends Component {
 
   render(){      
     const { image, name, status, species, gender, origin, lastLocation } = this.props;
-    return(
+    return (
       // name, status, species, gender, origin, last location, image
       <article className={styles.Character}>
         <img src={image}/>
@@ -41,6 +41,6 @@ export default class Character extends Component {
           <p>{lastLocation}</p>
         </div>
       </article>
-    )
+    );
   }
 }
