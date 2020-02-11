@@ -3,7 +3,7 @@ import styles from './App.css';
 
 export default class Footer extends Component {
   render(){
-    return(
+    return (
       <footer className={styles.Footer}>
         <section className={styles.stats}>
           <p>Characters: 493</p>
@@ -14,6 +14,6 @@ export default class Footer extends Component {
           <p>❮❯ by <a href="#">Axel Fuhrmann</a> 2020</p>
         </section>
       </footer>
-    )
+    );
   }
 }
