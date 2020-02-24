@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<Fragment>
+  <Header />
+  // eslint-disable-next-line react/jsx-no-comment-textnodes
+  <div
+    className="container"
+  >
+    // eslint-disable-next-line react/jsx-key
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    <Character
+      gender="great choice"
+      image="http://placegoat.com/300/300"
+      lastLocation="my city"
+      name="my name"
+      origin="my city"
+      species="the best animal"
+      status="great choice"
+    />
+    ;
+  </div>
+  <Footer />
+</Fragment>
+`;
